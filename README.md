@@ -3,7 +3,7 @@
 <t>Библиотека для быстрого создания меню.<br>
 <t>Поддерживает Java 16+, Spigot 1.16+<t>
 
-![image](https://github.com/devoirr/GUILib/assets/138160506/ea0ee1ff-8130-47ab-adc2-c14b402bc7e9)
+![Screenshot](https://github.com/devoirr/GUILib/assets/138160506/bb90b9f9-7a2a-4809-b1d0-460884b0b9a9)
 
 
 ## Добавление в проект
