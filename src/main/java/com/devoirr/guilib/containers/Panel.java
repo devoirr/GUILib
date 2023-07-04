@@ -69,7 +69,7 @@ public abstract class Panel implements InventoryHolder, IPanel {
         return inventory;
     }
 
-    public void handleClick(InventoryClickEvent event) {
+    public final void handleClick(InventoryClickEvent event) {
         click.forEach(m -> {
             try {
                 if (m.getSlots().isEmpty() || m.getSlots().contains(event.getSlot()))
@@ -80,7 +80,7 @@ public abstract class Panel implements InventoryHolder, IPanel {
         });
     }
 
-    public void handleClose(InventoryCloseEvent event) {
+    public final void handleClose(InventoryCloseEvent event) {
         close.forEach(m -> {
             try {
                 m.invoke(this, event);
