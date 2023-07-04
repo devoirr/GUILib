@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-  implementation 'com.github.devoirr:GUILib:1.0.0'
+  implementation 'com.github.devoirr:GUILib:1.0.1'
 }
 ```
 **Maven**
@@ -27,7 +27,7 @@ dependencies {
 <dependency>
   <groupId>com.github.devoirr</groupId>
   <artifactId>GUILib</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 
